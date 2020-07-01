@@ -4,9 +4,11 @@ Base on ppodgorsek/robot-framework
 ## Support
 - mssql
 - mysql
+- excel
+
 
 ## Build
-docker build --no-cache -t tumit/robotframework-sql:1.0.0 .
+docker build --no-cache -t tumit/robotframework-sql:1.1.0 .
 
 ## Run
 docker run --rm \
@@ -16,4 +18,4 @@ docker run --rm \
     tumit/robotframework-sql:1.0.0
 
 ## Push
-docker push tumit/robotframework-sql:1.0.0
+docker push tumit/robotframework-sql:1.1.0
